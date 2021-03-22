@@ -1,0 +1,20 @@
+.list-item {
+  &:hover {
+    background-color: #ccc;
+    cursor: pointer;
+  }
+}
+
+.list-item-text {
+  font-size: 1.6rem;
+  user-select: "none";
+  -moz-user-select: "none";
+  -webkit-user-select: "none";
+  -ms-user-select: "none";
+  -khtml-user-select: "none";
+}
+
+.crossed {
+  text-decoration: line-through;
+  color: rgba($color: #000000, $alpha: 0.5)
+}
